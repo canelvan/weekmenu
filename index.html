@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.77">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="nl"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Smakelijk &amp; Afiyet olsun&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&amp;display=swap');</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>:root {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--warm-terracotta: #d66853;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--warm-sage: #7d8e7a;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--warm-sand: #f9f1e7;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--warm-cream: #fffaf5;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--warm-dark: #4d4440;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>body {<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>font-family: 'Quicksand', sans-serif;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>background-color: var(--warm-sand);<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>color: var(--warm-dark);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.bg-primary { background-color: var(--warm-terracotta); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.bg-warm-cream { background-color: var(--warm-cream); }</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.tab-btn { border-bottom: 3px solid transparent; transition: all 0.3s; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.tab-btn.active {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>border-bottom: 3px solid var(--warm-terracotta);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>color: var(--warm-terracotta);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>font-weight: 700;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.week-btn { border: 1px solid var(--warm-terracotta); color: var(--warm-terracotta); transition: all 0.2s; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.week-btn.active {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>background-color: var(--warm-terracotta);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>color: white !important;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.hidden { display: none; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>@media print {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>.no-print { display: none !important; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>body { background-color: white !important; padding: 0; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>.max-w-7xl { max-width: 100% !important; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>.bg-white { box-shadow: none !important; border: none !important; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>.day-card { border: 1px solid #eee !important; page-break-inside: avoid; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body class="p-4 md:p-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="app" class="max-w-7xl mx-auto"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;header class="text-center mb-10 no-print"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl md:text-5xl font-bold text-primary mb-2"&gt;🍴 Smakelijk &amp; Afiyet olsun&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-500 italic"&gt;Uw persoonlijke gezinsplanner&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="flex justify-center space-x-4 md:space-x-8 mb-8 border-b border-orange-200 no-print"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;button onclick="switchTab('planner')" id="tab-planner" class="tab-btn px-4 py-3 text-gray-400 active font-semibold"&gt;Weekplanning&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;button onclick="switchTab('recipes')" id="tab-recipes" class="tab-btn px-4 py-3 text-gray-400 font-semibold"&gt;Gerechtenboek&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;button onclick="switchTab('shopping')" id="tab-shopping" class="tab-btn px-4 py-3 text-gray-400 font-semibold"&gt;Boodschappenlijst&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div id="section-planner"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-wrap justify-center mb-8 gap-3 no-print"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;button onclick="changeWeek(-1)" id="btn-prev" class="week-btn px-6 py-2 rounded-full font-bold"&gt;Vorige&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;button onclick="changeWeek(0)" id="btn-current" class="week-btn px-6 py-2 rounded-full font-bold active"&gt;Deze week&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;button onclick="changeWeek(1)" id="btn-next" class="week-btn px-6 py-2 rounded-full font-bold"&gt;Volgende&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="bg-white p-4 md:p-8 rounded-3xl shadow-lg border border-orange-100"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h2 id="currentWeekTitle" class="text-3xl font-bold text-gray-800"&gt;Maaltijdplan&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-4 no-print"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;button onclick="handleExport()" class="bg-[#7d8e7a] text-white px-5 py-2 rounded-xl text-sm font-bold shadow-sm"&gt;PDF / Print&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;button onclick="clearWeek()" class="text-xs text-red-400 uppercase font-black hover:text-red-600"&gt;Wis week&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-4" id="weekGrid"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div id="section-recipes" class="hidden"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 lg:grid-cols-4 gap-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="lg:col-span-1 bg-warm-cream p-6 rounded-2xl border border-orange-100 h-fit"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-xl font-bold mb-4 text-primary"&gt;Nieuw Gerecht&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="space-y-4"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;input id="dishName" type="text" placeholder="Naam..." class="w-full p-3 border border-orange-200 rounded-xl outline-none focus:ring-2 focus:ring-orange-300"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;select id="dishCategory" class="w-full p-3 border border-orange-200 rounded-xl bg-white outline-none"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;option value="Ontbijt"&gt;🌅 Ontbijt&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;option value="Lunch"&gt;🥪 Lunch&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;option value="Diner"&gt;🍲 Diner&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;button onclick="addDish()" class="w-full bg-primary text-white font-bold py-3 rounded-xl"&gt;Opslaan in boek&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="lg:col-span-3"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div id="fullDishGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div id="section-shopping" class="hidden"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-2xl mx-auto bg-white p-6 md:p-10 rounded-3xl shadow-lg border border-orange-100"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-bold mb-8 text-primary"&gt;🛒 Boodschappenlijst&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="mb-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xs font-black text-gray-400 uppercase mb-4"&gt;Gerechten van deze week:&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;ul id="autoShoppingList" class="space-y-3"&gt;&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="border-t border-orange-100 pt-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xs font-black text-gray-400 uppercase mb-4"&gt;Extra items:&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="flex gap-2 mb-6 no-print"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;input id="extraItem" type="text" class="flex-1 p-3 border border-orange-200 rounded-xl outline-none"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;button onclick="addExtraItem()" class="bg-[#7d8e7a] text-white px-6 py-3 rounded-xl font-bold"&gt;+&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;ul id="extraShoppingList" class="space-y-3"&gt;&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="toast" class="fixed bottom-5 right-5 bg-warm-dark text-white px-6 py-3 rounded-xl shadow-2xl transform translate-y-24 transition-transform duration-300 z-50 font-bold"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// Gebruik unieke keys om conflicten te voorkomen</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>const STORAGE_KEYS = {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>DISHES: 'afiyet_dishes_v10',</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>PLANS: 'afiyet_plans_v10',</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>EXTRAS: 'afiyet_extras_v10'</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>let currentWeekOffset = 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>let dishes = JSON.parse(localStorage.getItem(STORAGE_KEYS.DISHES)) || [</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{ id: 1, name: 'Menemen', category: 'Ontbijt' },</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{ id: 2, name: 'Linzensoep', category: 'Lunch' },</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{ id: 3, name: 'Pasta', category: 'Diner' }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>let allWeekPlans = JSON.parse(localStorage.getItem(STORAGE_KEYS.PLANS)) || { "-1": {}, "0": {}, "1": {} };</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>let extras = JSON.parse(localStorage.getItem(STORAGE_KEYS.EXTRAS)) || [];</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function init() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderFullDishGrid();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderShoppingList();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// --- CORE FUNCTIES ---</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function saveToStorage() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>localStorage.setItem(STORAGE_KEYS.DISHES, JSON.stringify(dishes));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>localStorage.setItem(STORAGE_KEYS.PLANS, JSON.stringify(allWeekPlans));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>localStorage.setItem(STORAGE_KEYS.EXTRAS, JSON.stringify(extras));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function switchTab(tab) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>['planner', 'recipes', 'shopping'].forEach(t =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(`section-${t}`).classList.toggle('hidden', t !== tab);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(`tab-${t}`).classList.toggle('active', t === tab);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if (tab === 'shopping') renderShoppingList();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function changeWeek(offset) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>currentWeekOffset = offset;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>document.querySelectorAll('.week-btn').forEach(btn =&gt; btn.classList.remove('active'));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(offset === -1) document.getElementById('btn-prev').classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(offset === 0) document.getElementById('btn-current').classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(offset === 1) document.getElementById('btn-next').classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function handleExport() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>// Forceer een korte pauze voor de browser om UI te updaten voor het printvenster</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>window.print();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>}, 250);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// --- UI RENDERING ---</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function updateWeekUI() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const grid = document.getElementById('weekGrid');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>grid.innerHTML = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const plan = allWeekPlans[currentWeekOffset] || {};</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const days = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const cats = ['Ontbijt', 'Lunch', 'Diner'];</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>days.forEach(day =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>let catHtml = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>cats.forEach(cat =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>const saved = plan[`${day}-${cat}`] || '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>const options = dishes.filter(d =&gt; d.category === cat).map(d =&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>`&lt;option value="${d.name}" ${saved === d.name ? 'selected' : ''}&gt;${d.name}&lt;/option&gt;`</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>).join('');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>catHtml += `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="p-3 border-b border-orange-100 last:border-0 hover:bg-orange-50 transition"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="text-[10px] uppercase font-black text-orange-300 block mb-1"&gt;${cat}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;select onchange="savePlan(this.value, '${day}', '${cat}')" class="w-full bg-transparent text-[13px] font-bold text-gray-700 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;option value=""&gt;-- Kies --&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>${options}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;option value=""&gt;(Leeg)&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/select&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div class="mt-1 text-[11px] font-bold text-primary truncate h-4"&gt;${saved}&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;`;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>grid.innerHTML += `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="day-card flex flex-col bg-warm-cream border border-orange-100 rounded-2xl shadow-sm overflow-hidden min-h-[250px]"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="bg-primary text-white text-center py-2 text-sm font-bold uppercase"&gt;${day}&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>${catHtml}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;`;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const labels = { "-1": "Vorige week", "0": "Deze week", "1": "Volgende week" };</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById('currentWeekTitle').innerText = labels[currentWeekOffset];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.savePlan = (val, day, cat) =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(!allWeekPlans[currentWeekOffset]) allWeekPlans[currentWeekOffset] = {};</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(val === "") delete allWeekPlans[currentWeekOffset][`${day}-${cat}`];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>else allWeekPlans[currentWeekOffset][`${day}-${cat}`] = val;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.addDish = () =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const name = document.getElementById('dishName').value.trim();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const cat = document.getElementById('dishCategory').value;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(!name) return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>dishes.push({id: Date.now(), name, category: cat});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById('dishName').value = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderFullDishGrid();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>showToast('Opgeslagen! ✨');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function renderFullDishGrid() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const grid = document.getElementById('fullDishGrid');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>grid.innerHTML = dishes.map(d =&gt; `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="p-4 bg-white rounded-xl border border-orange-100 flex justify-between items-center"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div&gt;&lt;span class="text-[10px] font-black text-orange-300 uppercase"&gt;${d.category}&lt;/span&gt;&lt;h3 class="font-bold"&gt;${d.name}&lt;/h3&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;button onclick="deleteDish(${d.id})" class="text-red-200 hover:text-red-500 font-bold text-xl"&gt;×&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>`).join('');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.deleteDish = (id) =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>dishes = dishes.filter(d =&gt; d.id !== id);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderFullDishGrid();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function renderShoppingList() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const plan = allWeekPlans[currentWeekOffset] || {};</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const meals = [...new Set(Object.values(plan))].filter(Boolean);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById('autoShoppingList').innerHTML = meals.map(m =&gt; `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center gap-3 p-3 bg-warm-cream border border-orange-100 rounded-xl shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;input type="checkbox" class="w-5 h-5 accent-[#7d8e7a]"&gt; &lt;span class="font-bold"&gt;${m}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>`).join('');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById('extraShoppingList').innerHTML = extras.map((ex, i) =&gt; `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center justify-between p-3 bg-orange-50 rounded-xl"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="flex items-center gap-3"&gt;&lt;input type="checkbox" class="w-5 h-5 accent-[#7d8e7a]"&gt; &lt;span class="font-bold"&gt;${ex}&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;button onclick="removeExtra(${i})" class="text-red-300 font-bold text-xl"&gt;×&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>`).join('');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.addExtraItem = () =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const input = document.getElementById('extraItem');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(!input.value) return;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>extras.push(input.value);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>input.value = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderShoppingList();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.removeExtra = (i) =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>extras.splice(i, 1);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>renderShoppingList();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.clearWeek = () =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if(confirm('Week wissen?')) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>allWeekPlans[currentWeekOffset] = {};</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>saveToStorage();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>updateWeekUI();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>function showToast(msg) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const t = document.getElementById('toast');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>t.innerText = msg;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>t.classList.remove('translate-y-24');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; t.classList.add('translate-y-24'), 2000);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.onload = init;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
